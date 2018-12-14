@@ -1,1 +1,2 @@
-alert("fuck");
+// import "./file";
+import $ from 'jquery';

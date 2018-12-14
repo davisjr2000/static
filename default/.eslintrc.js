@@ -1,28 +1,12 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
-    "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
-    }
+
+  "extends": "airbnb-base", // this line should already be here.
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "quotes": "off"
+  },
+  "env": {
+    "browser": true
+  }
 };
